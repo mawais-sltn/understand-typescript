@@ -1,0 +1,34 @@
+{
+    "endpoint": "https://mawais.cloudcfo.devgraph.com/api/v1/auth/register",
+    "request": {
+        "name": "M Awais",
+        "company": "Trilogy",
+        "phoneNumber": "+923009406023",
+        "email": "muhammad.awais@trilogy.com",
+        "password": "Admin@123",
+        "username": "muhammad.awais@trilogy.com"
+    },
+    "response": {
+        "accessToken": "eyJraWQiOiJhT1wvUDZxaDk3ZHBwUXhKelpOcTF3SVpkdFwvcDlWYjdCU3RQdjdSTlhTMEk9IiwiYWxnIjoiUlMyNTYifQ.eyJvcmlnaW5fanRpIjoiNDRkMThiYTktMzk5Zi00MTdmLWE5ZjMtMmEyM2FmNjIzMjRjIiwic3ViIjoiMDEzNjBlNzMtMWZjMy00OGNlLTkxMTEtMDIyY2I3ZTZkYWJmIiwiZXZlbnRfaWQiOiIzYzRkOWQ3YS1lMTY4LTRmY2MtODFlYi0zYjczN2RhNzVmNDIiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNjQ2ODA5MDQzLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV90MDFWTFFmTWwiLCJleHAiOjE2NDY4MTI2NDMsImlhdCI6MTY0NjgwOTA0MywianRpIjoiYmQyYjc2YTUtYjkyMC00NDUyLTk1ZDAtM2QyYTM0NWEyMjMxIiwiY2xpZW50X2lkIjoiMmE4dWhpNnQ3NTFzbHFlbmQyZ25qa2diaHEiLCJ1c2VybmFtZSI6Im11aGFtbWFkLmF3YWlzQHRyaWxvZ3kuY29tIn0.ETdT2E_7fY1MXqjot6dDqUgqxEi3HIDbBf78L9CklCBxK7rlgPw86woF9UE9C0k3oPTLBfQX28Cy9icLIectL3LkqbKmTFR7Fr5Ypotpof-erG1EI3FRAm4jnBh1JrCZ-GkHaQDXUyNTuNTp-1r7CtWiLUSSJGDzVNaG-IkgBWoGPJhj2jz_RMK9hJ1RgckKljLvXCcC7_rXSNdIWqwTr669Mv9WvPkCskIom9qMWfH7bsF7YxqgJXtgSJQK_PPEXm22U0DKCCTr505cLLErxZyB3YvchLuPP3nlTXtLzVnbFzHsJ--JqMXxhtFa-y_6HQkN5rleYoWfyLKrUqPJjA",
+        "refreshToken": "eyJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.a28lj6SV3-aEhr6nqOu6Z_vSAo_PY0nX5jhG-6kdAoak678Qn3cU0NL4aajDY_RGFBhQNTQlhTfNEZ-8vFYP3CDJIC3j6Mty25CivNMFujkJ3hY-WSpzMWxuoNkDAuBVRRkTjd8-FBno4BuJBMiPp3x5t02wH0p4y8SjYLD1zLYLNkwSwoWJCtmJb5CfdsMEZL5FQKprOZFgy79Yd12t1SVxVwIewwFPp0_qoqS8-nqkvck4_vxb-qv8UrXjEDPruW614R6txVzVJF9XdlDjiedIICptOxMp_F1NTemBRCeOAi6bnIQlftLHpM8-r3nOuENpbJRB5Ol9yMAUQI9lKg.N6UCSOZxKWh3ro25.S8QxVc82_pmDRhaZO8DYzOv932Gm2t3V7N_sBdtQh33xs0FMpLvSUfysT02-8MCc_mT9Si76oVnXBkzgVWkn0SUSegfP1GIxEiJU1JG0pGtbdAwUQwSVme5QkZ21IZu_Py-HjTtpi69DbONIWunomGWVomQyxd5dESfLFmb5qakVlNRbFRc9_BG-D2y3EF54Qb0tAROosay7huDbSMwn0k1VHBVGSrnl5vtIaSVBdqXGQlvbjYay5N8C5V6mi2Yg1g469dwaeKYRl4xTPZ8wNx6ggZj3qtn4BejTeNRAyk3kTOumOuFSFQ7409dQ-2EO4afa7K6em6LopjI4BxMvNKajq6rB2UUhtKCGZek-96wTKtIICVqWxwmd4Lp5A7opGfkOGDji9Hz3bTG_0VBWc7Loxmdf7T93xv1FMDkBSCeqn1lBUqbBkNxHT3149_voge0nVwEmYlolPGqlbo5JMltyH10te_7nJMYVJ2B9fdy-ChMNOjW3ssJMzwXN1eSR8pkWaV1agCOFvUdNJViShaecyyH7gB2DNK_EQ6jymMQcp4S7lYQhzS1PkAfbA4yr2YdCsg-K-63Y1GfmtpzUZldQ8bSQL_owT0sQOdEWSKvxEJS0nqYQIXTtvRkKkcYNMeXwgymR1Aqub1Ur03EVSzGK9Son81ZueycKvPyVPfCmxT1_M9TpI5bC4ID1jr5MmDYDmCin3Um6Um8gQhkrSEhyqA0AAMfV95pkuJFLpKDac2s2umYzIkiFLh1Kd7Mtem4U29BGiANV_XmpDHVaCrrHkGquWrxOmskRW8-FUiwJyg5rz55w1zhlV2QJOvUttYSc6vOwooLwVMBPrA5BwZumiHhkQsjDg6mePk9l_TQ_MENLS8c7m8dcDCBJ7f2lc5t3BY8_jfgo3Wp7q3nVSASu-vXvKw80IoFr1mwWx1lSHotGQ2HxzQFzKnaytzaKlnl3jgG3oK7GhPwnHX489pHrD6j7OYa9l7mjA3mJIqPQ5p6ijqrNqYEfNaOcVU71OxS6UMnQGawA4Hg_RSxjPP7gk4m58mT4qEtyDoHew2x2stuwmj-pAtkFn84Mz8mduxp8jmlHNfdA1FL1IrMU-HBdj_vLAGWiIlipRb4EgXlTAD1x27WxuJ6vlCQkXdDBHeiccCp_O7HL0UEqNa9Mu0Eecvn6j4ck6HP69he-100nKaBCJ1unQvLWKmdzz-3cwLmK7aF7UgggouJm81QpkaYVMJWT2sBDQ0C_G0TlYw4O-cSg2gj2EyToXoDN82n58YahpqU4viZLwabjRHnPTY52PPc4l9LrOgS1Ozgx.USjDLGj0j3CjhXzeIAJK-A",
+        "expiresIn": 3600,
+        "tokenType": "Bearer",
+        "user": {
+            "id": 5,
+            "name": "M Awais",
+            "username": "muhammad.awais@trilogy.com",
+            "companyName": "Trilogy",
+            "phoneNumber": "+923009406023",
+            "role": "TENANT_ADMIN"
+        },
+        "accounts": [],
+        "preferences": {
+            "performCriInvestments": true,
+            "performCriOptimization": true,
+            "performCriExpansion": false,
+            "performCriDeferral": false,
+            "performCriExtension": true,
+            "preferAllUpfrontUnderNDays": 1
+        }
+    }
+}
