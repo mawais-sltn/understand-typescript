@@ -6,7 +6,7 @@ import { differenceInHours, startOfMonth } from 'date-fns';
 import { enumFromName, extractDate } from '../../commons/utils';
 import { ris } from '../../test-data/tenant-commitments.data';
 import { OfferingType, PricingOfferingClass, ReservedInstance, Term } from '../model';
-import { getCloudCfoSequelize } from '../sequelize';
+import { getCloudCfoSequelize } from '../../sequelize/sequelize';
 import { TenantCommitment } from '../tenant-commitment';
 import { TenantCommitmentRepository } from './tenant-savings-commitment-repository';
 

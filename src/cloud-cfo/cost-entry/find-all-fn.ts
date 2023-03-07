@@ -1,7 +1,7 @@
 import { createNamespace } from 'cls-hooked';
-import { getCloudCfoSequelize } from '../sequelize';
-import { CostEntry, CostGroupKey } from '../cost-entry';
+import { getCloudCfoSequelize } from '../../sequelize/sequelize';
 import { CostEntryRepository } from './cost-entry-repository';
+import { CostGroupKey, CostEntry } from '../model/cost-entry';
 
 const DEFAULT_TENANT_ID = 12345;
 const groupKey1 = CostGroupKey.SERVICE;

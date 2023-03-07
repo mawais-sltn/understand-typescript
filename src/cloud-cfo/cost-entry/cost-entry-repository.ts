@@ -1,7 +1,7 @@
 import { Repository } from 'sequelize-typescript';
-import { CostEntry, CostEntryAttributes, CostGroupKey } from '../cost-entry';
 import { Op, WhereOptions } from 'sequelize';
 import { isPresent } from 'ts-is-present';
+import { CostEntry, CostEntryAttributes, CostGroupKey } from '../model/cost-entry';
 
 export class CostEntryRepository {
   constructor(private readonly repository: Repository<CostEntry>) {}

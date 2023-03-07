@@ -1,6 +1,6 @@
 import { createNamespace } from 'cls-hooked';
 
-import { getCloudCfoSequelize } from '../sequelize';
+import { getCloudCfoSequelize } from '../../sequelize/sequelize';
 import { TenantSavingsEstimationRepository } from './tenant-savings-estimation-repository';
 import { TenantSavingsEstimation } from '../tenant-savings-estimations';
 

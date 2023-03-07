@@ -6,7 +6,7 @@ import { differenceInHours, startOfMonth } from 'date-fns';
 import { enumFromName, extractDate } from '../../commons/utils';
 import { savingPlans } from '../../test-data/tenant-commitments.data';
 import { Ec2InstanceSavingsPlan, OfferingType, PricingOfferingClass, Term } from '../model';
-import { getCloudCfoSequelize } from '../sequelize';
+import { getCloudCfoSequelize } from '../../sequelize/sequelize';
 import { TenantCommitment } from '../tenant-commitment';
 import { TenantCommitmentRepository } from './tenant-savings-commitment-repository';
 
