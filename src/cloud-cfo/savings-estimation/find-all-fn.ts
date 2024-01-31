@@ -37,9 +37,8 @@ async function testingTheQuery() {
 
     const tenantSavingsEstimationRepository = new TenantSavingsEstimationRepository(repository);
     const calculatedLimit = addDays(startOfToday(), -7);
-    const tenantSavingsEstimations = await tenantSavingsEstimationRepository.getEstimationsCalculatedAfter(
-      calculatedLimit,
-    );
+    const tenantSavingsEstimations =
+      await tenantSavingsEstimationRepository.getEstimationsCalculatedAfter(calculatedLimit);
     console.log('tenantSavingsEstimations : ', tenantSavingsEstimations);
     const tenantsWithFreshEstimations = tenantSavingsEstimations.map((item) => item.tenantId);
     console.log('tenants : ', tenantsWithFreshEstimations);
